@@ -23,22 +23,6 @@ volume = {5},
 number = {CSCW2},
 url = {https://doi.org/10.1145/3479566},
 doi = {10.1145/3479566},
-abstract = {People are increasingly getting information and news from social media. On Twitter
-we are seeing the emergence of "tweetorials" -- long, explanatory Twitter threads
-written by experts. In this work we study tweetorials as a form of science writing.
-While scientists have begun to champion the importance of Twitter as a science communication
-medium, few have studied how people are successfully using this medium to communicate
-complex and nuanced ideas. To understand how tweetorials work, we curated a collection
-of 46 clear and engaging tweetorials from multiple domains. We analyzed these tweetorials
-for the writing techniques that they employ, and found that while tweetorials use
-many traditional science writing techniques, they also use more subjective language,
-actively build credibility, and incorporate media in unique ways. In addition, we
-report on a workshop we ran to aid science PhD students in writing tweetorials, and
-find that while providing common tweetorial techniques improves their writing, the
-students still struggle to balance their scientific sensibilities with the informal
-tone associated with tweetorials. We discuss the implications of using informal and
-subjective language in science communication, as well as how technology can support
-scientists in writing tweetorials.},
 journal = {Proc. ACM Hum.-Comput. Interact.},
 month = oct,
 articleno = {422},

@@ -13,21 +13,21 @@ Katy Ilonka Gero, Vivian Liu, Sarah Huang, Jennifer Lee, and Lydia B. Chilton. 2
 
 ```
 @article{10.1145/3479566,
-author = {Gero, Katy Ilonka and Liu, Vivian and Huang, Sarah and Lee, Jennifer and Chilton, Lydia B.},
-title = {What Makes Tweetorials Tick: How Experts Communicate Complex Topics on Twitter},
-year = {2021},
-issue_date = {October 2021},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-volume = {5},
-number = {CSCW2},
-url = {https://doi.org/10.1145/3479566},
-doi = {10.1145/3479566},
-journal = {Proc. ACM Hum.-Comput. Interact.},
-month = oct,
-articleno = {422},
-numpages = {26},
-keywords = {tweetorials, science writing, twitter, science communication, social media}
+	author = {Gero, Katy Ilonka and Liu, Vivian and Huang, Sarah and Lee, Jennifer and Chilton, Lydia B.},
+	title = {What Makes Tweetorials Tick: How Experts Communicate Complex Topics on Twitter},
+	year = {2021},
+	issue_date = {October 2021},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	volume = {5},
+	number = {CSCW2},
+	url = {https://doi.org/10.1145/3479566},
+	doi = {10.1145/3479566},
+	journal = {Proc. ACM Hum.-Comput. Interact.},
+	month = oct,
+	articleno = {422},
+	numpages = {26},
+	keywords = {tweetorials, science writing, twitter, science communication, social media}
 }
 ```
 

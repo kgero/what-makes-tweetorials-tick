@@ -12,9 +12,33 @@ Katy Ilonka Gero, Vivian Liu, Sarah Huang, Jennifer Lee, and Lydia B. Chilton. 2
 bibtex to be added
 ```
 
-## Data
+## Tweetorial Data
 
-`data.csv`
+`tweetorials.json`
+
+This file contains a json array of all tweetorials. Each tweetorial is a single object in the array, and contains the following keys:
+
+```
+{
+      "all_twt": array of strings, where each string is a tweet,
+      "all_txt": string of entire tweetorial text, with tweets separated by '~tweetbreak~',
+      "author": username of author,
+      "date_posted": date in format like "Thu Nov 21 14:51:32 +0000 2019",
+      "first_tweet": string of just first tweet text
+      "first_tweet_favorites": integer, at time of collection,
+      "first_tweet_retweets": integer, at time of collection,
+      "last_tweet": string of just last tweet text,
+      "num_tweets": integr, numeber of tweets in tweetorial,
+      "title": string, researcher assigned title,
+      "topic": string, researcher assigned topic,
+      "user_followers": integer, at time of collection
+    }
+```
+
+
+## Annotation Data
+
+`annotations.csv`
 
 This file contains all the tweetorial annoations reported in the paper. Annotation columns contain either 1 (tweetorial contains that content) or 0 (tweetorial does not contain that content). The columns are as follows:
 
@@ -27,6 +51,7 @@ This file contains all the tweetorial annoations reported in the paper. Annotati
 * Link: link to first tweet on Twitter
 * First Tweet: text of first tweet
 * Last Tweet: text of last tweet 
+* All Tweets: text of all tweets, separated by '~tweetbreak~'
 
 ### Lede annotations
 
@@ -54,10 +79,4 @@ This file contains all the tweetorial annoations reported in the paper. Annotati
 * Informal language humor
 * Engage Conversationally
 * Credibility
-
-### Media annotations
-
-* Visual Aid for Explanation /Figures
-* Citation
-* Visual Aid/ Humor / Filler
-* Media (any)
+* Media
